@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    음
+    
+    <style>
+        h1{
+   color : red;
+}
+
+.cls {
+   color : yellow;
+}
+
+#head {
+   font-size : 300%;
+}
+
+    </style>
+</head>
+<body>
+    <h1>This is a Head1</h1>
+<h1 id='head1'>Head1 : id</h1>
+<h1 class='Class1'>Head1 : class</h1>
+<h1 style='color: red'>Head1 : style</h1>
+<h1 name='head1'>Head1 : style</h1>
+<h1>This is a Heading</h1>
+ 
+<h1 class='cls'>This is a class Heading</h1> 
+
+<h1 id='head'>This is a   id Heading</h1>
+<h1>This is a Heading</h1>
+
+<input type='text' style='width: 1000px; height:100px; font-size:90px;'>
+<form>
+    <label for="text">이름</label>
+	<input type='text'>
+
+    <label for=email">이메일</label>
+	<input type='email'>
+
+    <label for="password">비번</label>
+	<input type='password'>
+
+	<input type='date'>
+
+	<button type='submit'></button>
+    <script>
+        function make2pow(num){
+            return Math.pow(num,2)
+        }
+    </script>
+    <p id='demo'> JavaScript can change HTML content. </p>
+    <button type='button' onclick='document.getElementById("demo").innerHTML =
+    make2pow(80)'> click me!</button>
+    
+
+</form>
+    
+</body>
+</html>
